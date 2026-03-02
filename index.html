@@ -5,100 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motion - Animações 3D</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
-    <header>
-        <div class="container header-content">
-            <h1 class="logo">Motion</h1>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#serviços">Serviços</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__content">
+            <h1 class="header__logo">Motion</h1>
+             
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#serviços" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="home" class="banner">
-        <div class="container">
-            <h2>Tranformamos ideias em experiências visuais 3D</h2>
-            <p>Animações realistas, motion graphics e experiências imersivas.</p>
-            <a href="" class="btn">Solicitar Orçamento</a>
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container hero__content">
+            <h2 class="hero__title">Tranformamos ideias em experiências visuais 3D</h2>
+            <p class="hero__text">Animações realistas, motion graphics e experiências imersivas.</p>
+            <a href="" class="btn btn--primary">Solicitar Orçamento</a>
         </div>
     </section>
 
-    <section id="sobre">
-        <div class="container">
-            <h2>Sobre a Motion</h2>
-            <p>Somos especialistas em animações 3D para marcas, publicidade e projetos digitais.</p>
+    <section id="sobre" class="about">
+        <div class="container abou__content">
+            <h2 class="about__title">Sobre a Motion</h2>
+            <p class="about__text">Somos especialistas em animações 3D para marcas, publicidade e projetos digitais.</p>
         </div>
     </section>
 
-    <section id="serviços">
-        <div class="container">
-            <h2>Nossos Serviços</h2>
-            <div class="grid-serviços">
-                <div class="card">
-                    <h3>Modelagem 3D</h3>
-                    <p>Criação de personagens e objetos realistas.</p>
+    <!--  SERVIÇOS -->
+    <section id="serviços" class="services">
+        <div class="container services__content">
+            <h2 class="service__title">Nossos Serviços</h2>
+            <div class="services__grid">
+                
+                <div class="services__card">
+                    <h3 class="services__card--title">Modelagem 3D</h3>
+                    <p class="service__card--text">Criação de personagens e objetos realistas.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Animação 3D</h3>
-                    <p>Movimentos fluidos e cinematográficos.</p>
+                <div class="service__card">
+                    <h3 class="services__card--title">Animação 3D</h3>
+                    <p class="service__card--text">Movimentos fluidos e cinematográficos.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Motion Graphics</h3>
-                    <p>Vídeos promocionais modernos.</p>
+                <div class="service__card">
+                    <h3 class="services__card--title">Motion Graphics</h3>
+                    <p class="service__card--text">Vídeos promocionais modernos.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Renderização</h3>
-                    <p>Qualidade profissional para campanhas.</p>
+                <div class="service__card">
+                    <h3 class="services__card--title">Renderização</h3>
+                    <p class="service__card--text">Qualidade profissional para campanhas.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="depoimentos">
-        <div class="container">
-            <h2>O que dizem nossos clientes</h2>
-            <div class="Depoimentos-container">
-                <div class="Depoimento">
-                    <p>"A Motion elevou nossa marca a outro nível visual."</p>
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container testimonials">
+            <h2 class="testimonials__title">O que dizem nossos clientes</h2>
+            <div class="testimonials__grid">
+                <div class="testimonials__card">
+                    <p class="testimonials__text">"A Motion elevou nossa marca a outro nível visual."</p>
                     <span>- Empresa A</span>
                 </div>
-                <div class="Depoimento">
-                    <p>"Animações incríveis e entrega rápida."</p>
+                <div class="testimonials__card">
+                    <p class="testimonials__text">"Animações incríveis e entrega rápida."</p>
                     <span>- Empresa B kk</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Email: contato@motion3d.com</p>
-            <p>Telefone: (85)99999-0000</p>
+    <!-- CONTATO -->
+    <section id="contato" class="contact">
+        <div class="container contact__content">
+            <h2 class="contact__title">Contato</h2>
+            <p class="contact__info">Email: contato@motion3d.com</p>
+            <p class="contact__info">Telefone: (85)99999-0000</p>
         </div>
 
-        <form>
-            <input type="text" name="" id="Nome" placeholder="Seu nome" required>
-            <input type="email" name="" id="email" placeholder="Seu email" required>
-            <textarea placeholder="Sua mensagem" id="msg"></textarea>
-            <button type="submit" class="btn">Enviar</button>
+        <!-- FORMULARIO -->
+        <form class="contact__form">
+            <input type="text" class="contact__input" id="Nome" placeholder="Seu nome" required>
+            <input type="email" class="contact__input" id="email" placeholder="Seu email" required>
+            <textarea class="contact__textarea" placeholder="Sua mensagem" id="msg"></textarea>
+            <button type="submit" class="btn btn--primary ">Enviar</button>
         </form>
     </section>
 
-    <footer>
-        <p>&copy;2026 Motion - Animações 3D</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__text">&copy;2026 Motion - Animações 3D</p>
     </footer>
 </body>
 
