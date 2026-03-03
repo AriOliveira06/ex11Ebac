@@ -96,6 +96,9 @@ body {
 }
 
 /* ================= ABOUT ================= */
+.about {
+    color: antiquewhite;
+}
 
 .about__title {
     margin-bottom: 1rem;
@@ -114,7 +117,7 @@ body {
 }
 
 .services__card,
-.service__card {
+.services__card {
     background: #1c1c2e;
     padding: 2rem;
     border-radius: 10px;
@@ -122,12 +125,12 @@ body {
 }
 
 .services__card:hover,
-.service__card:hover {
+.services__card:hover {
     transform: translateY(-10px);
     background: #252547;
 }
 
-.services__card--title {
+.services__card-title {
     margin-bottom: 0.5rem;
 }
 
