@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+// FLEX CENTER
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin card {
+  background: variaveis.$color-bg-card;
+  padding: variaveis.$space-4;
+  border-radius: variaveis.$radius-md;
+  transition: 0.3s;
+}

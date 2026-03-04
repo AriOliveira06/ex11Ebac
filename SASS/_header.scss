@@ -1,0 +1,19 @@
+@use 'variaveis';
+@use 'mixins';
+
+.header {
+    background: variaveis.$color-bg-header;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: variaveis.$space-3;
+    }
+
+    &__logo {
+        color: variaveis.$color-primary;
+        font-size: variaveis.$font-lg;
+    }
+
+}
